@@ -215,40 +215,41 @@
 "../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Materials/MI_BaseMaterial3.uasset" 214
 "../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Materials/MI_BaseMaterial2.uasset" 215
 "../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap" 216
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset" 217
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/UMG/UMG_Ladder.uasset" 218
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 219
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Blueprints/MotionControllerHaptics.uasset" 220
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Meshes/BeamMesh.uasset" 221
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Meshes/1x1_cube.uasset" 222
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Materials/M_SplineArcMat.uasset" 223
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Materials/MI_ChaperoneOutline.uasset" 224
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_PhysicsAsset.uasset" 225
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 226
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 227
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Character/Materials/M_HandMat.uasset" 228
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton.uasset" 229
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.uasset" 230
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Blueprints/GripEnum.uasset" 231
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.uasset" 232
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.uasset" 233
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.uasset" 234
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Animations/RightGrip_BS.uasset" 235
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset" 236
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset" 237
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/Assets/yellow.uasset" 238
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/Assets/pen.uasset" 239
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/Assets/grey.uasset" 240
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/Assets/drewno.uasset" 241
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/Assets/blue.uasset" 242
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/Assets/Ladder.uasset" 243
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Blueprints/BP_Ladder.uasset" 244
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset" 245
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" 246
-"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 247
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset" 248
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Materials/GenericHMDMaterial.uasset" 249
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Meshes/GenericHMD.uasset" 250
-"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Maps/StartupMap.umap" 251
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 252
-"../../../Engine/Content/Maps/Entry.umap" 253
+"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 217
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset" 218
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Materials/GenericHMDMaterial.uasset" 219
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Meshes/GenericHMD.uasset" 220
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Meshes/1x1_cube.uasset" 221
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Materials/MI_ChaperoneOutline.uasset" 222
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_PhysicsAsset.uasset" 223
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 224
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 225
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Character/Materials/M_HandMat.uasset" 226
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton.uasset" 227
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.uasset" 228
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Maps/StartupMap.umap" 229
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset" 230
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/UMG/UMG_Ladder.uasset" 231
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 232
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Blueprints/MotionControllerHaptics.uasset" 233
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Meshes/BeamMesh.uasset" 234
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Materials/M_SplineArcMat.uasset" 235
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Blueprints/GripEnum.uasset" 236
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.uasset" 237
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.uasset" 238
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.uasset" 239
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Animations/RightGrip_BS.uasset" 240
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset" 241
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset" 242
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/Assets/yellow.uasset" 243
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/Assets/pen.uasset" 244
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/Assets/grey.uasset" 245
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/Assets/drewno.uasset" 246
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/Assets/blue.uasset" 247
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/Assets/Ladder.uasset" 248
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Blueprints/BP_Ladder.uasset" 249
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset" 250
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/BP_Gamemode.uasset" 251
+"../../../../../../Users/der-1/Documents/Unreal Projects/MyProject/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" 252
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 253
+"../../../Engine/Content/Maps/Entry.umap" 254
