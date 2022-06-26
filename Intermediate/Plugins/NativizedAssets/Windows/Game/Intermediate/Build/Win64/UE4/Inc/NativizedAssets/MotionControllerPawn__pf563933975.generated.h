@@ -1,0 +1,159 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ABP_MotionController_C__pf563933975;
+struct FRotator;
+struct FKey;
+#ifdef NATIVIZEDASSETS_MotionControllerPawn__pf563933975_generated_h
+#error "MotionControllerPawn__pf563933975.generated.h already included, missing '#pragma once' in MotionControllerPawn__pf563933975.h"
+#endif
+#define NATIVIZEDASSETS_MotionControllerPawn__pf563933975_generated_h
+
+#define MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_SPARSE_DATA
+#define MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execbpf__GroundCheck__pf); \
+	DECLARE_FUNCTION(execbpf__LadderMove__pf); \
+	DECLARE_FUNCTION(execbpf__GetRotationFromInput__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabLeft_K2Node_InputActionEvent_8__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabLeft_K2Node_InputActionEvent_7__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabRight_K2Node_InputActionEvent_6__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabRight_K2Node_InputActionEvent_5__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_TeleportLeft_K2Node_InputActionEvent_4__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_TeleportLeft_K2Node_InputActionEvent_3__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_TeleportRight_K2Node_InputActionEvent_2__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_TeleportRight_K2Node_InputActionEvent_1__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_UseButton_K2Node_InputActionEvent_0__pf); \
+	DECLARE_FUNCTION(execbpf__ReceiveBeginPlay__pf); \
+	DECLARE_FUNCTION(execbpf__ExecuteTeleportation__pf); \
+	DECLARE_FUNCTION(execbpf__ReceiveTick__pf); \
+	DECLARE_FUNCTION(execbpf__InpAxisEvt_MotionControllerThumbLeft_Y_K2Node_InputAxisEvent_0__pf); \
+	DECLARE_FUNCTION(execbpf__InpAxisEvt_MotionControllerThumbRight_Y_K2Node_InputAxisEvent_1__pf); \
+	DECLARE_FUNCTION(execbpf__CE_ChangePH__pf); \
+	DECLARE_FUNCTION(execbpf__ExecuteUbergraph_MotionControllerPawn__pf_8);
+
+
+#define MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execbpf__GroundCheck__pf); \
+	DECLARE_FUNCTION(execbpf__LadderMove__pf); \
+	DECLARE_FUNCTION(execbpf__GetRotationFromInput__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabLeft_K2Node_InputActionEvent_8__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabLeft_K2Node_InputActionEvent_7__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabRight_K2Node_InputActionEvent_6__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabRight_K2Node_InputActionEvent_5__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_TeleportLeft_K2Node_InputActionEvent_4__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_TeleportLeft_K2Node_InputActionEvent_3__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_TeleportRight_K2Node_InputActionEvent_2__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_TeleportRight_K2Node_InputActionEvent_1__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_UseButton_K2Node_InputActionEvent_0__pf); \
+	DECLARE_FUNCTION(execbpf__ReceiveBeginPlay__pf); \
+	DECLARE_FUNCTION(execbpf__ExecuteTeleportation__pf); \
+	DECLARE_FUNCTION(execbpf__ReceiveTick__pf); \
+	DECLARE_FUNCTION(execbpf__InpAxisEvt_MotionControllerThumbLeft_Y_K2Node_InputAxisEvent_0__pf); \
+	DECLARE_FUNCTION(execbpf__InpAxisEvt_MotionControllerThumbRight_Y_K2Node_InputAxisEvent_1__pf); \
+	DECLARE_FUNCTION(execbpf__CE_ChangePH__pf); \
+	DECLARE_FUNCTION(execbpf__ExecuteUbergraph_MotionControllerPawn__pf_8);
+
+
+#define MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_EVENT_PARMS \
+	struct MotionControllerPawn_C__pf563933975_eventbpf__ReceiveTick__pf_Parms \
+	{ \
+		float bpp__DeltaSeconds__pf; \
+	};
+
+
+#define MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_CALLBACK_WRAPPERS \
+	void eventbpf__ReceiveBeginPlay__pf(); \
+ \
+	void eventbpf__ReceiveTick__pf(float bpp__DeltaSeconds__pf); \
+
+
+
+#define MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesAMotionControllerPawn_C__pf563933975(); \
+	friend struct Z_Construct_UClass_AMotionControllerPawn_C__pf563933975_Statics; \
+public: \
+	DECLARE_CLASS(AMotionControllerPawn_C__pf563933975, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Game/VirtualRealityBP/Blueprints/MotionControllerPawn"), NO_API) \
+	DECLARE_SERIALIZER(AMotionControllerPawn_C__pf563933975)
+
+
+#define MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_INCLASS \
+private: \
+	static void StaticRegisterNativesAMotionControllerPawn_C__pf563933975(); \
+	friend struct Z_Construct_UClass_AMotionControllerPawn_C__pf563933975_Statics; \
+public: \
+	DECLARE_CLASS(AMotionControllerPawn_C__pf563933975, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Game/VirtualRealityBP/Blueprints/MotionControllerPawn"), NO_API) \
+	DECLARE_SERIALIZER(AMotionControllerPawn_C__pf563933975)
+
+
+#define MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AMotionControllerPawn_C__pf563933975(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMotionControllerPawn_C__pf563933975) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMotionControllerPawn_C__pf563933975); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMotionControllerPawn_C__pf563933975); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AMotionControllerPawn_C__pf563933975(AMotionControllerPawn_C__pf563933975&&); \
+	NO_API AMotionControllerPawn_C__pf563933975(const AMotionControllerPawn_C__pf563933975&); \
+public:
+
+
+#define MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AMotionControllerPawn_C__pf563933975(AMotionControllerPawn_C__pf563933975&&); \
+	NO_API AMotionControllerPawn_C__pf563933975(const AMotionControllerPawn_C__pf563933975&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMotionControllerPawn_C__pf563933975); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMotionControllerPawn_C__pf563933975); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMotionControllerPawn_C__pf563933975)
+
+
+#define MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_PRIVATE_PROPERTY_OFFSET
+#define MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_12_PROLOG \
+	MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_EVENT_PARMS
+
+
+#define MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_PRIVATE_PROPERTY_OFFSET \
+	MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_SPARSE_DATA \
+	MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_RPC_WRAPPERS \
+	MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_CALLBACK_WRAPPERS \
+	MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_INCLASS \
+	MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_PRIVATE_PROPERTY_OFFSET \
+	MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_SPARSE_DATA \
+	MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_CALLBACK_WRAPPERS \
+	MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_INCLASS_NO_PURE_DECLS \
+	MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h_16_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NATIVIZEDASSETS_API UClass* StaticClass<class AMotionControllerPawn_C__pf563933975>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID MyProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MotionControllerPawn__pf563933975_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

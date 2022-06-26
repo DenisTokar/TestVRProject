@@ -1,6 +1,325 @@
 {
 	"Contents": [
 		{
+			"File": "../../../Engine/Plugins/Runtime/OpenXR/OpenXR.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "OpenXR",
+				"Description": "OpenXR is an open VR/AR standard",
+				"Category": "Virtual Reality",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"IsBetaVersion": true,
+				"SupportedTargetPlatforms": [
+					"Win32",
+					"Win64",
+					"Android",
+					"HoloLens"
+				],
+				"Modules": [
+					{
+						"Name": "OpenXRHMD",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"WhitelistPlatforms": [
+							"Win32",
+							"Win64",
+							"Android",
+							"HoloLens"
+						]
+					},
+					{
+						"Name": "OpenXRInput",
+						"Type": "Runtime",
+						"LoadingPhase": "PostEngineInit",
+						"WhitelistPlatforms": [
+							"Win32",
+							"Win64",
+							"Android",
+							"HoloLens"
+						]
+					},
+					{
+						"Name": "OpenXRAR",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"WhitelistPlatforms": [
+							"Win32",
+							"Win64",
+							"Android",
+							"HoloLens"
+						]
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Runtime/Oculus/OculusOpenXR/OculusOpenXR.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.49.0",
+				"FriendlyName": "Oculus OpenXR",
+				"Description": "OpenXR extension to support Oculus headsets and features",
+				"Category": "Virtual Reality",
+				"CreatedBy": "Oculus",
+				"CreatedByURL": "https://www.oculus.com/",
+				"DocsURL": "https://developer.oculus.com/documentation/unreal/latest/concepts/unreal-engine/",
+				"MarketplaceURL": "",
+				"SupportURL": "https://forums.oculusvr.com/developer/categories/unreal",
+				"EnabledByDefault": false,
+				"CanContainContent": true,
+				"IsBetaVersion": true,
+				"SupportedTargetPlatforms": [
+					"Win32",
+					"Win64",
+					"Android"
+				],
+				"Modules": [
+					{
+						"Name": "OculusOpenXRHMD",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32",
+							"Android"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "OpenXR",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "SimpleHMD",
+				"Description": "SimpleHMD is a sample of a basic stereo HMD implementation",
+				"Category": "Virtual Reality",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "SimpleHMD",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/NativizedAssets.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 0,
+				"VersionName": "",
+				"FriendlyName": "NativizedAssets",
+				"Description": "A programatically generated plugin which contains source files produced from Blueprint assets. The aim of this is to help performance by eliminating script overhead for the converted assets (using the source files in place of thier coresponding assets).",
+				"Category": "Intermediate",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "@TODO",
+				"MarketplaceURL": "",
+				"SupportURL": "https://answers.unrealengine.com/",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "NativizedAssets",
+						"Type": "CookedOnly",
+						"LoadingPhase": "Default",
+						"WhitelistPlatforms": [
+							"Win32",
+							"Win64"
+						],
+						"WhitelistTargets": [
+							"Game"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "MagicLeapPassableWorld",
+						"Enabled": true,
+						"SupportedTargetPlatforms": [
+							"Lumin",
+							"Mac",
+							"Win64"
+						]
+					},
+					{
+						"Name": "SteamVR",
+						"Enabled": true,
+						"SupportedTargetPlatforms": [
+							"Win32",
+							"Win64",
+							"Linux"
+						]
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/MagicLeap/MagicLeapPassableWorld/MagicLeapPassableWorld.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Magic Leap Passable World",
+				"Description": "Shared world experiences on XR devices supported by Magic Leap.",
+				"Category": "Augmented Reality",
+				"CreatedBy": "Magic Leap, Inc.",
+				"CreatedByURL": "http://magicleap.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": true,
+				"SupportedTargetPlatforms": [
+					"Lumin",
+					"Mac",
+					"Win64"
+				],
+				"Modules": [
+					{
+						"Name": "MagicLeapARPin",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault"
+					},
+					{
+						"Name": "MagicLeapSharedWorld",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "SteamVR",
+				"Description": "Support for the SteamVR API",
+				"Category": "Virtual Reality",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": true,
+				"SupportedTargetPlatforms": [
+					"Win32",
+					"Win64",
+					"Linux"
+				],
+				"Modules": [
+					{
+						"Name": "SteamVR",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32",
+							"Linux"
+						]
+					},
+					{
+						"Name": "SteamVRInput",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32"
+						]
+					},
+					{
+						"Name": "SteamVRInputDevice",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32"
+						]
+					},
+					{
+						"Name": "SteamVREditor",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PostEngineInit",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ProceduralMeshComponent",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Procedural Mesh Component",
+				"Description": "A renderable component and library of utilities for creating and modifying mesh geometry procedurally.",
+				"Category": "Rendering",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "ProceduralMeshComponent",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					},
+					{
+						"Name": "ProceduralMeshComponentEditor",
+						"Type": "Editor",
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/2D/Paper2D/Paper2D.uplugin",
 			"Descriptor": 
 			{
@@ -913,37 +1232,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Procedural Mesh Component",
-				"Description": "A renderable component and library of utilities for creating and modifying mesh geometry procedurally.",
-				"Category": "Rendering",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "ProceduralMeshComponent",
-						"Type": "Runtime",
-						"LoadingPhase": "Default"
-					},
-					{
-						"Name": "ProceduralMeshComponentEditor",
-						"Type": "Editor",
-						"LoadingPhase": "Default"
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Experimental/ChaosSolverPlugin/ChaosSolverPlugin.uplugin",
 			"Descriptor": 
 			{
@@ -1219,42 +1507,6 @@
 							"IOS",
 							"TVOS"
 						]
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/MagicLeap/MagicLeapPassableWorld/MagicLeapPassableWorld.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Magic Leap Passable World",
-				"Description": "Shared world experiences on XR devices supported by Magic Leap.",
-				"Category": "Augmented Reality",
-				"CreatedBy": "Magic Leap, Inc.",
-				"CreatedByURL": "http://magicleap.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": true,
-				"SupportedTargetPlatforms": [
-					"Lumin",
-					"Mac",
-					"Win64"
-				],
-				"Modules": [
-					{
-						"Name": "MagicLeapARPin",
-						"Type": "Runtime",
-						"LoadingPhase": "PreDefault"
-					},
-					{
-						"Name": "MagicLeapSharedWorld",
-						"Type": "Runtime",
-						"LoadingPhase": "Default"
 					}
 				]
 			}
@@ -2657,75 +2909,6 @@
 						"Name": "SoundFields",
 						"Type": "Runtime",
 						"LoadingPhase": "PreDefault"
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "SteamVR",
-				"Description": "Support for the SteamVR API",
-				"Category": "Virtual Reality",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": true,
-				"SupportedTargetPlatforms": [
-					"Win32",
-					"Win64",
-					"Linux"
-				],
-				"Modules": [
-					{
-						"Name": "SteamVR",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32",
-							"Linux"
-						]
-					},
-					{
-						"Name": "SteamVRInput",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32"
-						]
-					},
-					{
-						"Name": "SteamVRInputDevice",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32"
-						]
-					},
-					{
-						"Name": "SteamVREditor",
-						"Type": "UncookedOnly",
-						"LoadingPhase": "PostEngineInit",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32"
-						]
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "ProceduralMeshComponent",
-						"Enabled": true
 					}
 				]
 			}

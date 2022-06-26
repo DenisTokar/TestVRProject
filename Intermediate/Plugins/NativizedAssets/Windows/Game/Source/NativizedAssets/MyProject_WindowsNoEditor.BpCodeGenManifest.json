@@ -1,0 +1,140 @@
+{
+	"manifestChunkId": -1,
+	"pluginName": "NativizedAssets",
+	"outputDir": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game",
+	"moduleDependencies": [
+		"Package'/Script/CoreUObject'",
+		"Package'/Script/Engine'",
+		"Package'/Script/MagicLeapARPin'",
+		"Package'/Script/NavigationSystem'",
+		"Package'/Script/UMG'",
+		"Package'/Script/AnimGraphRuntime'",
+		"Package'/Script/InputCore'",
+		"Package'/Script/ClothingSystemRuntimeNv'",
+		"Package'/Script/HeadMountedDisplay'",
+		"Package'/Script/PhysicsCore'",
+		"Package'/Script/SteamVR'",
+		"Package'/Script/SlateCore'",
+		"Package'/Script/Landscape'",
+		"Package'/Script/StaticMeshDescription'",
+		"Package'/Script/MeshDescription'",
+		"Package'/Script/AudioExtensions'",
+		"Package'/Script/AudioPlatformConfiguration'",
+		"Package'/Script/AIModule'",
+		"Package'/Script/GameplayTasks'",
+		"Package'/Script/GameplayTags'",
+		"Package'/Script/ClothingSystemRuntimeInterface'",
+		"Package'/Script/PropertyAccess'",
+		"Package'/Script/PropertyPath'",
+		"Package'/Script/MovieScene'",
+		"Package'/Script/Slate'",
+		"Package'/Script/AudioMixer'"
+	],
+	"convertedAssets":
+	{
+		"/Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum",
+			"generatedHeaderPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/GripEnum__pf563933975.h",
+			"generatedCppPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/GripEnum__pf563933975.cpp"
+		},
+		"/MagicLeapPassableWorld/MagicLeapARPinInfoActor.MagicLeapARPinInfoActor_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/MagicLeapPassableWorld/MagicLeapARPinInfoActor.MagicLeapARPinInfoActor_C",
+			"generatedHeaderPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/MagicLeapARPinInfoActor__pf2635949152.h",
+			"generatedCppPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/MagicLeapARPinInfoActor__pf2635949152.cpp"
+		},
+		"/Game/VirtualRealityBP/Blueprints/Interfaces/PickupActorInterface.PickupActorInterface_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/VirtualRealityBP/Blueprints/Interfaces/PickupActorInterface.PickupActorInterface_C",
+			"generatedHeaderPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/PickupActorInterface__pf222216556.h",
+			"generatedCppPath": ""
+		},
+		"/Game/VirtualRealityBP/UMG/UMG_Ladder.UMG_Ladder_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/VirtualRealityBP/UMG/UMG_Ladder.UMG_Ladder_C",
+			"generatedHeaderPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/UMG_Ladder__pf596000372.h",
+			"generatedCppPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/UMG_Ladder__pf596000372.cpp"
+		},
+		"/Game/VirtualRealityBP/Blueprints/Interfaces/ClimbActorInterface.ClimbActorInterface_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/VirtualRealityBP/Blueprints/Interfaces/ClimbActorInterface.ClimbActorInterface_C",
+			"generatedHeaderPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ClimbActorInterface__pf222216556.h",
+			"generatedCppPath": ""
+		},
+		"/Game/VirtualRealityBP/Blueprints/BP_ClimbCube.BP_ClimbCube_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/VirtualRealityBP/Blueprints/BP_ClimbCube.BP_ClimbCube_C",
+			"generatedHeaderPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_ClimbCube__pf563933975.h",
+			"generatedCppPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_ClimbCube__pf563933975.cpp"
+		},
+		"/Game/VirtualRealityBP/Blueprints/BP_Ladder.BP_Ladder_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/VirtualRealityBP/Blueprints/BP_Ladder.BP_Ladder_C",
+			"generatedHeaderPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Ladder__pf563933975.h",
+			"generatedCppPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Ladder__pf563933975.cpp"
+		},
+		"/Game/VirtualReality/Mannequin/Animations/RightHand_AnimBP.RightHand_AnimBP_C":
+		{
+			"assetType": "Class'/Script/Engine.AnimBlueprint'",
+			"targetObjPath": "/Game/VirtualReality/Mannequin/Animations/RightHand_AnimBP.RightHand_AnimBP_C",
+			"generatedHeaderPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/RightHand_AnimBP__pf558596347.h",
+			"generatedCppPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/RightHand_AnimBP__pf558596347.cpp"
+		},
+		"/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C",
+			"generatedHeaderPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_MotionController__pf563933975.h",
+			"generatedCppPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_MotionController__pf563933975.cpp"
+		},
+		"/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn_C",
+			"generatedHeaderPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/MotionControllerPawn__pf563933975.h",
+			"generatedCppPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/MotionControllerPawn__pf563933975.cpp"
+		},
+		"/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C",
+			"generatedHeaderPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Sky_Sphere__pf1379775596.h",
+			"generatedCppPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Sky_Sphere__pf1379775596.cpp"
+		},
+		"/Game/VirtualRealityBP/Blueprints/HMDLocomotionPawn.HMDLocomotionPawn_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/VirtualRealityBP/Blueprints/HMDLocomotionPawn.HMDLocomotionPawn_C",
+			"generatedHeaderPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/HMDLocomotionPawn__pf563933975.h",
+			"generatedCppPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/HMDLocomotionPawn__pf563933975.cpp"
+		},
+		"/Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C",
+			"generatedHeaderPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_PickupCube__pf563933975.h",
+			"generatedCppPath": "C:/Users/der-1/Documents/Unreal Projects/MyProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_PickupCube__pf563933975.cpp"
+		}
+	},
+	"unconvertedDependencies":
+	{
+	},
+	"nativizationOptions":
+	{
+		"platformName": "WindowsNoEditor",
+		"serverOnlyPlatform": false,
+		"clientOnlyPlatform": false,
+		"bExcludeMonolithicHeaders": false,
+		"excludedModules": [],
+		"excludedAssets": [],
+		"excludedFolderPaths": []
+	}
+}
